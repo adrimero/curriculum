@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2.0rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-title {
+    margin: 1.0rem;
+}
+
+.header-description {
+    margin: 1.0rem;
+    margin-top: 2.0rem;
+}
+
+.header-image {
+    margin: 1.0rem;
+}
+
+.navbar {
+    display: flex;
+    margin: 1.0rem;
+    justify-content: space-between;
+}
+
+.main-content {
+    margin: 1.0rem;
+}
+
+.section-text {
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+}
+
+
