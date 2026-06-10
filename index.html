@@ -1,135 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-    <title>CV - Adrian Pincay</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@300;400;600&family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Adrian Pincay CV</title>
+
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header>
 
-        <div class="header-info">
+        <section class="container">
 
-            <h1 class="header-title">
-                Adrian Enrique Pincay Mero
-            </h1>
+            <article class="description">
 
-            <p class="header-description">
-                Estudiante de Ingeniería en Ciencias de la Computación en ESPOL
-                orientado al desarrollo Backend e Inteligencia Artificial.
-            </p>
+                <h1>
+                    Adrian Enrique Pincay Mero
+                </h1>
 
-        </div>
+                <p>
+                    Estudiante de Ingeniería en Ciencias de la Computación en ESPOL,
+                    enfocado en desarrollo Backend, APIs RESTful e Inteligencia Artificial.
+                    Actualmente me encuentro desarrollando proyectos con Python, FastAPI,
+                    MongoDB y tecnologías web modernas.
+                </p>
 
-        <img
-            class="header-image"
-            src="img/fotitoformaladriceleste.png"
-            alt="Foto de Adrian Pincay"
-            width="150"
-            loading="lazy"
-        >
+                <div class="datos">
 
-    </header>
+                    <p>
+                        Guayaquil, Ecuador
+                    </p>
 
-    <nav class="navbar">
+                    <p>
+                        adrimero@espol.edu.ec
+                    </p>
 
-        <a class="nav-link" href="#perfil">Perfil</a>
-        <a class="nav-link" href="#educacion">Educación</a>
-        <a class="nav-link" href="#universidad">Universidad</a>
-        <a class="nav-link" href="#experiencia">Experiencia</a>
-        <a class="nav-link" href="#habilidades">Habilidades</a>
-        <a class="nav-link" href="#proyectos">Proyectos</a>
-        <a class="nav-link" href="#aprendizaje">Aprendizaje</a>
-        <a class="nav-link" href="#contacto">Contacto</a>
-        <a class="nav-link" href="#opiniones">Opiniones</a>
+                    <p>
+                        github.com/adrimero
+                    </p>
 
-    </nav>
+                </div>
 
-    <main class="main-content">
+            </article>
 
-        <section
-            id="perfil"
-            class="section"
-        >
+            <figure class="imagen-propia">
 
-            <h2 class="section-title">
-                Perfil Profesional
-            </h2>
+                <img
+                    src="img/fotitoformaladriceleste.png"
+                    alt="Foto profesional de Adrian Pincay"
+                >
 
-            <p class="section-text">
-                Estudiante de Ingeniería en Ciencias de la Computación en ESPOL
-                con enfoque en desarrollo Backend e Inteligencia Artificial.
-            </p>
-
-            <p class="section-text">
-                Poseo conocimientos en APIs RESTful, arquitectura modular,
-                ciclo de vida de peticiones HTTP y diseño de sistemas escalables.
-            </p>
-
-            <p class="section-text">
-                Tengo experiencia trabajando con FastAPI, MongoDB,
-                validación de datos con Pydantic y herramientas modernas
-                de desarrollo backend.
-            </p>
+            </figure>
 
         </section>
 
-        <section
-            id="educacion"
-            class="section"
-        >
+    </header>
 
-            <h2 class="section-title">
-                Educación
-            </h2>
+    <nav>
 
-            <table class="education-table" border="1">
+        <a href="#proyectos">
+            Proyectos
+        </a>
 
-                <thead class="table-head">
+        <a href="#educacion">
+            Educación
+        </a>
 
-                    <tr class="table-row">
-                        <th class="table-header">Institución</th>
-                        <th class="table-header">Título</th>
-                        <th class="table-header">Años</th>
+        <a href="#experiencia">
+            Experiencia
+        </a>
+
+        <a href="#contacto">
+            Contacto
+        </a>
+
+    </nav>
+
+    <main>
+
+        <section id="educacion">
+
+            <article>
+
+                <h2>
+                    Educación
+                </h2>
+
+                <p>
+                    Formación académica orientada a programación,
+                    bases de datos, estructuras de datos,
+                    desarrollo backend y arquitectura de software.
+                </p>
+
+            </article>
+
+            <table border="1">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Institución
+                        </th>
+
+                        <th>
+                            Tiempo
+                        </th>
+
                     </tr>
 
                 </thead>
 
-                <tbody class="table-body">
+                <tbody>
 
-                    <tr class="table-row">
-                        <td class="table-data">
-                            Academia Naval Almirante Illingworth
+                    <tr>
+
+                        <td>
+                            Escuela Superior Politécnica del Litoral (ESPOL)
+                            <br>
+                            Ingeniería en Ciencias de la Computación (FIEC)
                         </td>
 
-                        <td class="table-data">
-                            Bachiller Técnico en TICs
+                        <td>
+                            2024 – Presente
                         </td>
 
-                        <td class="table-data">
-                            2011 - 2024
-                        </td>
                     </tr>
 
-                    <tr class="table-row">
+                    <tr>
 
-                        <td class="table-data">
-                            ESPOL
+                        <td>
+                            Academia Naval Almirante Illingworth (ANAI)
+                            <br>
+                            Bachiller Técnico en Tecnologías de la Información y Comunicaciones (TICs)
                         </td>
 
-                        <td class="table-data">
-                            Ingeniería en Ciencias de la Computación
-                        </td>
-
-                        <td class="table-data">
-                            2024 - Actualidad
+                        <td>
+                            2011 – 2024
                         </td>
 
                     </tr>
@@ -138,334 +155,246 @@
 
             </table>
 
-        </section>
+            <div class="mapa">
 
-        <section
-            id="universidad"
-            class="section"
-        >
-
-            <h2 class="section-title">
-                Universidad
-            </h2>
-
-            <p class="section-text">
-                Escuela Superior Politécnica del Litoral - Campus Gustavo Galindo.
-            </p>
-
-            <iframe
-                class="map-frame"
-                width="350"
-                height="250"
-                src="https://www.google.com/maps"
-                title="Ubicación de ESPOL"
-                loading="lazy">
-            </iframe>
-
-        </section>
-
-        <section
-            id="experiencia"
-            class="section"
-        >
-
-            <h2 class="section-title">
-                Experiencia
-            </h2>
-
-            <article class="card">
-
-                <h3 class="card-title">
-                    Ayudantías de Fundamentos de Programación
+                <h3>
+                    Ubicación Académica
                 </h3>
 
-                <p class="card-text">
-                    Apoyo académico en lógica de programación,
-                    estructuras de control, funciones y resolución
-                    de problemas utilizando Python.
-                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2051.922777245633!2d-79.97036412064!3d-2.147341534675161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73013b8ff70f%3A0x76e1a737fc8411ef!2sFacultad%20de%20Ciencias%20Sociales%20y%20Humanistica%20FCSH%20%7C%20Espol!5e0!3m2!1ses!2sec!4v1779652829767!5m2!1ses!2sec"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    lgoog
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
 
-            </article>
-
-            <article class="card">
-
-                <h3 class="card-title">
-                    Ayudantías de Base de Datos
-                </h3>
-
-                <p class="card-text">
-                    Asistencia en consultas SQL, JOINs,
-                    modelado relacional y comprensión
-                    de conceptos de bases de datos.
-                </p>
-
-            </article>
+            </div>
 
         </section>
 
-        <section
-            id="habilidades"
-            class="section"
-        >
+        <section id="proyectos">
 
-            <h2 class="section-title">
-                Habilidades
-            </h2>
-
-            <ul class="skills-list">
-
-                <li class="skills-item">Python</li>
-                <li class="skills-item">Java</li>
-                <li class="skills-item">FastAPI</li>
-                <li class="skills-item">MongoDB</li>
-                <li class="skills-item">SQL</li>
-                <li class="skills-item">React</li>
-                <li class="skills-item">Tailwind CSS</li>
-                <li class="skills-item">Git y GitHub</li>
-                <li class="skills-item">Pydantic</li>
-                <li class="skills-item">HTTP y APIs RESTful</li>
-
-            </ul>
-
-        </section>
-
-        <section
-            id="proyectos"
-            class="section"
-        >
-
-            <h2 class="section-title">
+            <h2>
                 Proyectos
             </h2>
 
-            <article class="card">
+            <article class="carta">
 
-                <h3 class="card-title">
-                    EcoShieldEC – Sistema de Monitoreo Ambiental
+                <h3>
+                    EcoShieldEC
                 </h3>
 
-                <p class="card-text">
-                    Arquitectura backend escalable utilizando FastAPI
-                    y separación de responsabilidades mediante
-                    Routes, Services y Repositories.
+                <p>
+                    Sistema de monitoreo ambiental desarrollado con FastAPI
+                    y MongoDB enfocado en análisis de riesgo de inundaciones
+                    utilizando datos satelitales.
                 </p>
+
+                <button type="button">
+                    Ver más
+                </button>
 
             </article>
 
-            <article class="card">
+            <article class="carta">
 
-                <h3 class="card-title">
-                    NASA Space Apps Challenge 2025 – Computronic
+                <h3>
+                    NASA Space Apps Challenge
                 </h3>
 
-                <p class="card-text">
-                    Desarrollo de un panel impulsado por IA
-                    para análisis de datos espaciales e integración
-                    de modelos de lenguaje.
+                <p>
+                    Plataforma impulsada por Inteligencia Artificial para análisis
+                    y síntesis de información científica espacial utilizando APIs
+                    y modelos de lenguaje.
                 </p>
+
+                <button type="button">
+                    Ver más
+                </button>
 
             </article>
 
-            <article class="card">
+            <article class="carta">
 
-                <h3 class="card-title">
-                    TreeZip – Sistema de Compresión Huffman
+                <h3>
+                    TreeZip
                 </h3>
 
-                <p class="card-text">
-                    Herramienta de compresión desarrollada en Java
-                    utilizando árboles binarios y colas de prioridad.
+                <p>
+                    Sistema de compresión de archivos implementando
+                    el algoritmo de Huffman utilizando árboles binarios
+                    y estructuras optimizadas en Java.
                 </p>
+
+                <button type="button">
+                    Ver más
+                </button>
 
             </article>
 
         </section>
 
-        <section
-            id="aprendizaje"
-            class="section"
-        >
+        <!-- EXPERIENCIA -->
 
-            <h2 class="section-title">
-                Aprendizaje Actual
+        <section id="experiencia">
+
+            <div class="container">
+
+                <h2>
+                    Experiencia
+                </h2>
+
+                <div class="lista">
+
+                    <ul>
+
+                        <li>
+                            Ayudante de Fundamentos de Programación en ESPOL
+                            (Python y lógica computacional)
+                        </li>
+
+                        <li>
+                            Ayudante de Base de Datos en ESPOL
+                            (MySQL y modelado relacional)
+                        </li>
+
+                        <li>
+                            Desarrollo de proyectos backend utilizando
+                            FastAPI, MongoDB y APIs RESTful
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="aspiraciones">
+
+            <div class="container">
+
+                <h2>
+                    Aspiraciones Futuras
+                </h2>
+
+                <div class="lista">
+
+                    <ul>
+
+                        <li>
+                            Especializarme como Backend Developer
+                        </li>
+
+                        <li>
+                            Profundizar conocimientos en análisis
+                            y procesamiento de datos
+                        </li>
+
+                        <li>
+                            Participar en proyectos de Inteligencia Artificial
+                            y sistemas escalables
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contacto">
+
+            <h2>
+                Contacto
             </h2>
 
-            <ul class="learning-list">
+            <p>
+                ¿Te interesa trabajar conmigo o conocer más sobre mis proyectos?
+            </p>
 
-                <li class="learning-item">
-                    Arquitecturas backend escalables
-                </li>
+            <form>
 
-                <li class="learning-item">
-                    React y Tailwind CSS
-                </li>
-
-                <li class="learning-item">
-                    Optimización de consultas SQL
-                </li>
-
-                <li class="learning-item">
-                    Inteligencia Artificial aplicada
-                </li>
-
-                <li class="learning-item">
-                    Diseño de APIs RESTful
-                </li>
-
-            </ul>
-
-        </section>
-
-    </main>
-
-    <section
-        id="opiniones"
-        class="section opinions-section"
-    >
-
-        <h2 class="section-title">
-            Opiniones
-        </h2>
-
-        <form class="form">
-
-            <div class="form-group">
-
-                <label
-                    class="form-label"
-                    for="nombre"
-                >
+                <label for="nombre">
                     Nombre
                 </label>
 
-                <br>
-
                 <input
-                    class="form-input"
                     type="text"
                     id="nombre"
                     name="nombre"
                     placeholder="Ingrese su nombre"
+                    required
                 >
 
-            </div>
-
-            <br>
-
-            <div class="form-group">
-
-                <label
-                    class="form-label"
-                    for="email"
-                >
-                    Correo electrónico
+                <label for="telefono">
+                    Teléfono
                 </label>
-
-                <br>
 
                 <input
-                    class="form-input"
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Ingrese su email"
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="Ingrese su número de teléfono"
+                    required
                 >
 
-            </div>
-
-            <br>
-
-            <div class="form-group">
-
-                <label
-                    class="form-label"
-                    for="opinion"
-                >
-                    Opinión
+                <label for="correo">
+                    Correo Electrónico
                 </label>
 
-                <br>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="Ingrese su correo electrónico"
+                    required
+                >
+
+                <label for="mensaje">
+                    Mensaje
+                </label>
 
                 <textarea
-                    class="form-textarea"
-                    id="opinion"
-                    name="opinion"
-                    rows="5"
-                    cols="40"
-                    placeholder="Ingrese su opinión sobre el curriculum">
+                    id="mensaje"
+                    name="mensaje"
+                    placeholder="Ingrese motivo u opinión"
+                    required>
                 </textarea>
 
-            </div>
+                <button type="submit">
+                    Enviar
+                </button>
 
-            <br>
+            </form>
 
-            <button
-                class="form-button"
-                type="submit"
-            >
-                Enviar opinión
-            </button>
+        </section>
+    </main>
 
-        </form>
+    <footer>
 
-    </section>
+        <div id="final">
 
-    <footer
-        id="contacto"
-        class="footer"
-    >
+            <p>
+                Adrian Enrique Pincay Mero • ESPOL • Backend Developer
+            </p>
 
-        <h2 class="footer-title">
-            Contacto
-        </h2>
+            <p>
+                GitHub: github.com/adrimero
+            </p>
 
-        <p class="footer-text">
+            <p>
+                LinkedIn: linkedin.com/in/adrian-pincay-647bb0401
+            </p>
 
-            Email:
-
-            <a
-                class="footer-link"
-                href="mailto:adrimero@espol.edu.ec"
-            >
-                adrimero@espol.edu.ec
-            </a>
-
-        </p>
-
-        <p class="footer-text">
-
-            GitHub:
-
-            <a
-                class="footer-link"
-                href="https://github.com/adrimero"
-                target="_blank"
-            >
-                github.com/adrimero
-            </a>
-
-        </p>
-
-        <p class="footer-text">
-
-            LinkedIn:
-
-            <a
-                class="footer-link"
-                href="https://www.linkedin.com/in/adrian-pincay-647bb0401"
-                target="_blank"
-            >
-                linkedin.com/in/adrian-pincay-647bb0401
-            </a>
-
-        </p>
-
-        <p class="footer-text">
-            Guayaquil, Ecuador
-        </p>
+        </div>
 
     </footer>
 
 </body>
-
 </html>
